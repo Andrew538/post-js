@@ -1,0 +1,23 @@
+// import { render } from "node-sass";
+// import { Router } from "react-router-dom";
+// import App from "../App";
+import About from "../pages/About";
+import Login from "../pages/Login";
+import PostIdPage from "../pages/PostIdPage";
+import Posts from "../pages/Posts";
+
+
+
+
+export const privateRoutes = [
+    {path: '/about', component: About, exact: true},
+    {path: '/post', component:  Posts, exact: true},
+    {path: '/post/:id', component: PostIdPage, exact: true},
+    
+]
+
+export const publicRoutes = [
+    {path: '/login', component: Login, exact: true}
+]
+
+
