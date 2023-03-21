@@ -76,3 +76,8 @@
     gap: 15px;
     margin-left: auto;
 }
+
+.loginBox {
+    max-width: 800px;
+    margin: auto;
+}

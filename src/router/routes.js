@@ -1,6 +1,4 @@
-// import { render } from "node-sass";
-// import { Router } from "react-router-dom";
-// import App from "../App";
+
 import About from "../pages/About";
 import Login from "../pages/Login";
 import PostIdPage from "../pages/PostIdPage";
